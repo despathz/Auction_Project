@@ -12,6 +12,7 @@ public class App{
     @RequestMapping("/")
     @ResponseBody
     String home() {
+    	System.out.println("Hello Spring");
         return "Hello World!";
     }
 
