@@ -1,4 +1,4 @@
-package com.Auction_Project.main;
+package com.webApp.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@ComponentScan("com.Auction_Project")
+@ComponentScan("com.webApp.ws")
 public class App {
 		
     @RequestMapping("/")

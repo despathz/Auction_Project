@@ -1,12 +1,5 @@
-/**
- * 
- */
-package Auction_Project.Auction_Project.user;
+package com.webApp.ws.user;
 
-/**
- * @author DimJo
- *
- */
 public class User {
 
 	private String username;
