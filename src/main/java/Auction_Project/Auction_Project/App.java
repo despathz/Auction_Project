@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @EnableAutoConfiguration
 public class App{
-
+	
     @RequestMapping("/")
     @ResponseBody
     String home() {
